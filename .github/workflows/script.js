@@ -1,4 +1,5 @@
 window.onload = function() {
+    confirm("Inicio")
     // Crie uma cena
     var scene = new THREE.Scene();
 
