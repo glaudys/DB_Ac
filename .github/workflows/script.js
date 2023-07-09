@@ -13,7 +13,7 @@ window.onload = function() {
 
     // Carregue o arquivo PDB
     var loader = new THREE.PDBLoader();
-    loader.load('seu_arquivo.pdb', function(geometry, atoms) {
+    loader.load('4zqk.pdb', function(geometry, atoms) {
         // Crie um material para o modelo
         var material = new THREE.MeshBasicMaterial({ color: 0xffffff });
 
